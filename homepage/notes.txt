@@ -1,0 +1,15 @@
+source venv/bin/activate
+
+this one is important...
+pip freeze > requirements.txt
+
+"""
+Flask-Login is a Flask extension that provides user session management for Flask applications. It handles the common tasks of logging in, logging out, and remembering user sessions. Here are some of the key features it provides:
+
+User Session Management: Keeps track of logged-in users.
+User Authentication: Simplifies the process of verifying user credentials.
+User Access Control: Restricts access to certain views based on user authentication status.
+Cookie-Based Session: Automatically manages cookies for user sessions.
+If your Flask application requires user authentication or user-specific sessions, Flask-Login is a useful and convenient tool to include.
+
+"""
